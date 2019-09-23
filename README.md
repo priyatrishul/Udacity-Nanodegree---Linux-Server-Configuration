@@ -12,8 +12,11 @@ The purpose of this project is to take a baseline installation of a Linux server
 ### SSH into server
 
  1.Download default private key from the Account page.
+ 
  2.Rename the key file as LightsailDefaultKey.rsa and move into `~/.ssh` folder.
+ 
  3. change the file permission by `chmod 600 ~/.ssh/lightsail_key.rsa`.
+ 
  4. Connect to the terminal `ssh -i ~/.ssh/LightsailDefaultKey.rsa ubuntu@34.217.93.62`.
  
 ### Update packages
